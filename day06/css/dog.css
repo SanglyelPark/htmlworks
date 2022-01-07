@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Pen+Script&display=swap');
+*{margin: 0; padding: 0;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 헤더 스타일 */
+header{height: 80px;background-color: rgb(98, 192, 122);}
+header #logo{width: 200xp;float: left;padding: 15px 20px;}
+header #logo h1{color: snow;font-family: 'Merienda';}
+/* header #logo h1:hover{color: rgb(72, 231, 252);} */
+/* header nav{width: 700px; float: right;} */
+header nav{width: 700px; float: right;}
+header nav ul{list-style: none;text-align: right;margin-right: 20px;}
+header nav ul li{display: inline-block;margin: 20px;padding: 10px;}
+header nav ul li a{color: white;text-decoration: none;font-family: 경기천년제목;}
+header nav ul li a:hover{color: #f8e21a;}
+/* section 스타일 */
+section{margin: 20px;}
+section h2{font-family: 'nanum pen script', cursive;font-size: 2.5em; }

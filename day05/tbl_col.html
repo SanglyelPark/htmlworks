@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>표의 칼럼 스타일</title>
+</head>
+<style>
+  table, th, td{
+    border: 3px solid rgb(219, 219, 221);
+    /* border-collapse: collapse;  */
+    border-collapse: separate;
+    
+  }
+  th, td{
+    /* padding: 10px; */
+    width: 100px;
+    height: 50px;
+
+  }
+  /* .bg{background: rgb(247, 214, 214);} */
+</style>
+<body>
+  <!-- 2행 3열 표만들기 -->
+  <table>
+    <colgroup>
+      <col>
+      <col style="background: rgb(248, 180, 180);">
+      <col style="width: 200px;">
+    </colgroup>
+  <thead>
+    <tr class="bg">
+      <th>출신학교</th>
+      <th>전공</th>
+      <th>기간</th>
+          </tr>
+  </thead>
+  <thead>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+          </tr>
+  </thead>
+</table>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 목록</title>
+    <style>
+        table{
+            width: 250px;
+             border: 2px solid gray; 
+            /* border-width: 3px;
+            border-style: solid;
+            border-color: gr; */
+            text-align: center;
+        }
+        td{    /* 공통 스타일은 콤마로 구분 */
+            border: 1px dotted gray;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3행 2열 표 만들기 -->
+    <table>
+        <caption>로그인 폼</caption>
+        <tr>
+            <td>아이디</td>
+            <td></td>
+            
+            <tr>
+                <td>비밀번호</td>
+                <td></td>
+               
+            </tr>
+            <tr>
+                <td colspan="2"> 로그인 </td>
+                <!-- 셀병합 - 열은 colspan을 사용 행은 rowspan 사용 -->
+            </tr>
+           
+        </tr>
+    </table>
+</body>
+</html>

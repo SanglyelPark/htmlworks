@@ -1,0 +1,12 @@
+/* nav 스타일 */
+nav ul{list-style: none;}
+nav ul li{display: inline-block;
+  margin: 0 15px;
+  border-top: 2px solid black;
+  padding: 10px;
+}
+nav ul li a{text-decoration: none;}
+nav ul li:hover{background: rgb(240, 240, 240);}
+
+/* section 스타일 */
+section{padding-left: 20px;}
