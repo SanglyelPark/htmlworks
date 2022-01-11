@@ -1,0 +1,11 @@
+#container{width: 500px; margin: 30px auto;
+border: 1px solid black; padding: 20px;}
+form{width: 600px;}
+#container ul li{list-style: none; margin: 15px;}
+fieldset{margin-bottom: 20px;}
+#shipping label{width: 100px;float: left;}
+#shipping input{width: 200px; height: 20px;}
+#shipping #addr{width: 300px; height: 20px;}
+#shipping #email{width: 250px; height: 20px;}
+/* .button input{margin-left: 0; width: 100px;height: 30px;} */
+button{width: 80px; height: 30px;}
