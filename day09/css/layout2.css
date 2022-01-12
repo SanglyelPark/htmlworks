@@ -1,0 +1,37 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;}
+#container{
+      width: 1000px;
+      margin: 0 auto;
+      /* box-sizing: border-box; */
+}
+#container h1{font-size: 2rem;}
+header{
+  width: 1000px;
+  height: 100px;
+  border: 1px solid rgb(69, 5, 247);
+  padding: 10px;
+}
+section{
+  width: 700px;
+  height: 600px;
+  border: 1px solid rgb(8, 8, 8);
+  padding: 10px;
+  float: left;
+}
+aside{
+  width: 300px;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: rgb(58, 172, 172);
+  float: right;
+}
+footer{
+  width: 1000px;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  clear: both;
+}

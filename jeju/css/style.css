@@ -45,18 +45,18 @@ header #topMenu li a:hover{color: #2fb2fd;}
     padding: 10px 20px;}
 
 /* About Me 스타일 */
-h2{
-    list-style: url(./imges/button.jpg);
+/* h2{
+    list-style: url(../imges/button.jpg);
     /* url (이미지경로) - 이미지 추가하는 함수 */
-}
-#profile{width: 1000px; margin: 30px auto; }
+} */
+#profile{width: 1000px; margin: 10px auto; }
 #profile section{margin: 20px 10px;}
 #profile section h2{margin: 5px; color: blue;}
-#profile section div{margin: 30px 10px;}
+#profile section div{margin: 70px 10px;}
 #profile #intro{height: 350px;}
 #profile #intro h1{font-size: 2em;}
-#profile #intro p{line-height: 1.8em;}
-#profile #intro img{float: left; margin-right: 30px; border-radius: 5px;}
+#profile #intro p{line-height: 1.5em;}
+#profile #intro img{float: left; margin-right: 10px; border-radius: 5px;}
 #profile #intro a{text-decoration: none; color: #00f;}
 #profile #intro a:hover{text-decoration: underline;}
 #profile #career ul li{margin: 16px 50px;}
@@ -71,4 +71,6 @@ footer{height:100px; margin-top: 50px; border-top: 2px solid #222;}
 footer #bottomMenu{list-style: none; margin: 10px 10px 10px 50px;}
 footer #bottomMenu li{display: inline-block; margin: 10px 0; 
     border-right: 1px solid #ccc; padding: 0 10px;}
+footer #bottomMenu li:last-child{border: none;}    
+/* 마지막 보더를 지움 */
 footer #bottomMenu li a{text-decoration: none; color: #444;}
